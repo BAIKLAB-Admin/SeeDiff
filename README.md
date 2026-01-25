@@ -19,7 +19,7 @@ By aggregating cross-attention and self-attention maps directly from the diffusi
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/[YOUR_ID]/SeeDiff.git
+git clone https://github.com/BAIKLAB-Admin/SeeDiff.git
 cd SeeDiff
 ```
 
@@ -64,19 +64,22 @@ python src/seediff_main_origin.py \
 * `src/seq_aligner.py`: Token alignment and mapping logic for prompt-based control.
 
 ## 📝 Citation & Authors
-Paper
-Title: [To be updated: Please provide the paper title]
-Link: [To be updated: Please provide the paper link]
 
-Authors
-[To be updated: Please provide author names]
-Affiliation: [To be updated]
+If you find this project useful in your research, please consider citing our paper:
 
-📜 BibTeX
-text
-@article{seediff2026,
-  title = {SeeDiff: Simultaneous Image and Mask Generation via Diffusion Attention},
-  author = {[Author Names]},
-  journal = {[Conference/Journal]},
-  year = {2026}
+- **Title**: [SeeDiff: Simultaneous Image and Segmentation Mask Generation](https://arxiv.org/abs/2507.19808)
+- **Authors**: Joon Hyun Park¹, Kumju Jo², Sungyong Baik†
+
+- **Paper**: [arXiv:2507.19808](https://arxiv.org/abs/2507.19808)
+
+### 📜 BibTeX
+```bibtex
+@article{SeeDiff,
+  title={SeeDiff: Off-the-Shelf Seeded Mask Generation from Diffusion Models}, 
+  author={Joon Hyun Park and Kumju Jo and Sungyong Baik},
+  year={2025},
+  eprint={2507.19808},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={[https://arxiv.org/abs/2507.19808](https://arxiv.org/abs/2507.19808)}
 }
