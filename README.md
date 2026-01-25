@@ -67,7 +67,7 @@ python src/seediff_main_origin.py \
 
 If you find this project useful in your research, please consider citing our paper:
 
-- **Title**: [SeeDiff: Simultaneous Image and Segmentation Mask Generation](https://arxiv.org/abs/2507.19808)
+- **Title**: [SeeDiff: Off-the-Shelf Seeded Mask Generation from Diffusion Models](https://arxiv.org/abs/2507.19808)
 - **Authors**: Joon Hyun Park¹, Kumju Jo², Sungyong Baik†
 
 - **Paper**: [arXiv:2507.19808](https://arxiv.org/abs/2507.19808)
