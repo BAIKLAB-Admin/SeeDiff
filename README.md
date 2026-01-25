@@ -1,7 +1,7 @@
 text
-# SeeDiff: Simultaneous Image and Segmentation Mask Generation
+# SeeDiff: Off-the-Shelf Seeded Mask Generation from Diffusion Models
 
-**SeeDiff** is a training-free framework that leverages the internal attention mechanisms of **Stable Diffusion** to simultaneously generate high-quality images and their corresponding precision segmentation masks.  
+**SeeDiff** is a training-free model that leverages the internal attention mechanisms of **Stable Diffusion** to simultaneously generate high-quality images and their corresponding precision segmentation masks.  
 By aggregating cross-attention and self-attention maps directly from the diffusion process, SeeDiff extracts semantic layouts without any additional supervision.
 
 ---
