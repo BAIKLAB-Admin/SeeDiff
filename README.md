@@ -1,4 +1,3 @@
-text
 # SeeDiff: Off-the-Shelf Seeded Mask Generation from Diffusion Models
 
 **SeeDiff** is a training-free model that leverages the internal attention mechanisms of **Stable Diffusion** to simultaneously generate high-quality images and their corresponding precision segmentation masks.  
@@ -19,7 +18,7 @@ By aggregating cross-attention and self-attention maps directly from the diffusi
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/BAIKLAB-Admin/SeeDiff.git
+git clone https://github.com/BAIKLAB/SeeDiff.git
 cd SeeDiff
 ```
 
